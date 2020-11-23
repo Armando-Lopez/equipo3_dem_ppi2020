@@ -1,0 +1,25 @@
+[
+  {
+    "nombre":"Drogueria",
+    "imagen": "https://www.flaticon.es/svg/static/icons/svg/1988/1988002.svg"
+  },
+
+
+  {
+    "nombre":"Tecnologia",
+    "imagen": "https://www.nicepng.com/png/detail/160-1600948_icono-tecnologia-png-shaking-hands-circle-icon.png"
+  },
+
+
+  {
+    "nombre":"Belleza",
+    "imagen": "https://static.miweb.padigital.es/var/m_8/8b/8ba/36742/523837-peluqueria-loira-persona-icono-1.png"
+  },
+
+  
+  {
+    "nombre":"Restaurantes",
+    "imagen": "https://image.flaticon.com/icons/png/512/2180/2180150.png"
+  }
+  
+]

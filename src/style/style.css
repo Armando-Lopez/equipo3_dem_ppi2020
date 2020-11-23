@@ -1,0 +1,522 @@
+@import url("https://fonts.googleapis.com/css2?family=Allura&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap");
+
+body {
+	/* font-family: 'Open Sans', sans-serif; */
+	background-image: url("https://image.freepik.com/vector-gratis/patron-sobre-shopping_1061-495.jpg");
+}
+.bg-cian {
+	background-color: #03ecf9;
+}
+
+.brand {
+	text-align: center;
+	font-family: "Allura", cursive;
+	margin: 10px auto;
+	margin-bottom: 40px;
+	font-size: 50px;
+	font-weight: 600px;
+	height: 30px;
+	margin-top: 40px;
+
+}
+.boton {
+	background-color: white;
+	height: 40px;
+	border-radius: 12px;
+	border-bottom-color: white;
+	border-color: #08c2cc;
+	border-width: 5px;
+	margin: 10px;
+}
+.fondoInicio {
+	border-radius: 0, 5px;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	width: 350px;
+	height: 470;
+	margin-top: 5%;
+	background-color: #03ecf9;
+}
+
+.border {
+	border-radius: 30px;
+}
+
+.card-img-top1{
+	width: 450px;
+	height: 400px;
+}
+.card{
+	margin:16px;
+}
+/* 
+.fondoInicio {
+	border-radius: 0, 5px;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	width: 350px;
+	height: 470;
+	margin-top: 5%;
+}
+
+.container {
+	border-radius: 12px;
+	background-color: #03ecf9;
+	text-align: center;
+	display: inline-block;
+	justify-content: center;
+	margin-top: 50px;
+}
+
+.openShop {
+	background-color: #03ecf9;
+	font-family: "Allura", cursive;
+	font-size: 50px;
+	font-weight: 500px;
+	right: 15px;
+	height: 30px;
+}
+
+h1 {
+	font-family: "Allura", cursive;
+	font-size: 50px;
+}
+
+.buscador {
+	width: 100%;
+}
+
+header {
+	height: 50px;
+	width: 50px;
+	align-self: center;
+}
+
+.botonBusqueda {
+	border: center black solid;
+	margin-right: 520px;
+	height: 40px;
+	width: 60px;
+	justify-content: center;
+}
+
+.header {
+	justify-content: center;
+	height: 40px;
+	align-self: center;
+}
+
+.containerUno {
+	border-radius: 12px;
+	background-color: #03ecf9;
+	text-align: center;
+	display: inline-block;
+	justify-content: center;
+	margin-top: 50px;
+}
+
+.fondoInicio1 {
+	border-radius: 0, 5px;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	width: 250px;
+	height: 270px;
+	margin-top: 5%;
+}
+.botoninit {
+	background-color: white;
+	width: 90px;
+	height: 40px;
+	border-radius: 12px;
+	border-bottom-color: white;
+	border-color: #08c2cc;
+	border-width: 5px;
+}
+.botoninit2 {
+	background-color: white;
+	width: 150px;
+	height: 40px;
+	border-radius: 12px;
+	border-bottom-color: white;
+	border-color: #08c2cc;
+	border-width: 5px;
+}
+.botonregister {
+	background-color: white;
+	width: 100px;
+	height: 40px;
+	border-radius: 12px;
+	border-bottom-color: white;
+	border-color: #08c2cc;
+	border-width: 5px;
+}
+
+.containerDos {
+	border-radius: 12px;
+	background-color: #03ecf9;
+	text-align: center;
+	display: inline-block;
+	justify-content: center;
+	margin-top: 50px;
+}
+
+.fondoInicio2 {
+	border-radius: 0, 5px;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	width: 400px;
+	height: 520px;
+	margin-top: 5%;
+}
+
+.tarjetaEstablecimiento {
+	max-width: 540px;
+}
+
+.tituloComunaCinco {
+	text-align: center;
+	justify-content: center;
+}
+
+.fondo {
+	background: #03ecf9;
+}
+.register {
+	margin-right: 200px;
+	margin-top: -8px;
+}
+.text {
+	margin: 2px;
+}
+.button {
+	background-color: white;
+	width: 100px;
+	height: 40px;
+	border-radius: 12px;
+	border-bottom-color: white;
+	border-color: #08c2cc;
+	border-width: 5px;
+	margin: 20px;
+}
+
+.h3 {
+	text-align: center;
+	font-style: italic;
+	font-weight: bold;
+	justify-content: center;
+}
+
+.imagenEstablecimiento {
+	width: 340px;
+	height: 220px;
+}
+
+.menuBuscador {
+	align-content: center;
+	height: 65px;
+}
+
+.buscador {
+	width: 400px;
+	height: 40px;
+	border-radius: 5px;
+}
+
+.fondoInicio4 {
+	border-radius: 0, 5px;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	width: 350px;
+	height: 400px;
+	margin-top: 7%;
+}
+
+.openshop {
+	margin-top: 20px;
+}
+
+.openshop1 {
+	margin-top: -20px;
+}
+.divperfil {
+	background-color: white;
+	height: 300px;
+	display: flex;
+}
+.fondoInicio5 {
+	border-radius: 5px;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	width: 400px;
+	height: 600px;
+	margin-top: 4%;
+}
+.barra {
+	max-width: 1170px;
+}
+.more {
+	width: 100px;
+	height: 100px;
+	margin: 12px;
+	background-color: transparent;
+	border-color: #03ecf9;
+	border-radius: 12px;
+}
+.more1 {
+	font-family: "Times New Roman", Times, serif;
+}
+
+.openshop2 {
+	margin-top: -20px;
+}
+.categoria {
+	text-align: center;
+	margin-top: -30px;
+	color: white;
+}
+.catego {
+	background-color: #03ecf9;
+	height: 300px;
+	width: 193vh;
+	margin: 40px;
+	padding: 30px;
+	position: center;
+	right: 100px;
+	top: 50px;
+	display: inline-block;
+}
+.need {
+	text-align: center;
+}
+.barra {
+	width: 2000px;
+	border-radius: 12px;
+}
+.container1 {
+	border-radius: 5px;
+	text-align: center;
+	display: inherit;
+	justify-content: center;
+	width: 400px;
+	height: 520px;
+	background-color: white;
+}
+.imagen {
+	padding: 100px;
+}
+.imagen1 {
+	width: 200px;
+	height: 200px;
+	margin: 60px;
+	margin-left: 60px;
+}
+.imagen2 {
+	width: 200px;
+	height: 200px;
+	margin: 60px;
+	margin-left: 60px;
+}
+
+.container5 {
+	border-radius: 12px;
+	background-color: #03ecf9;
+	text-align: center;
+	display: inline-block;
+	justify-content: center;
+	margin-top: 50px;
+}
+
+.fondoInicio7 {
+	border-radius: 0, 5px;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	width: 350px;
+	height: 680px;
+	margin-top: 7%;
+}
+.divnav {
+	background-color: #03ecf9;
+}
+
+.textopant {
+	font-size: 23px;
+	margin-left: 650px;
+}
+
+.fondoInicio8 {
+	border-radius: 0, 5px;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	width: 350px;
+	height: 500px;
+	margin-top: 7%;
+}
+
+.openshop3 {
+	text-align: center;
+}
+.col {
+	background-color: white;
+}
+.card-img-top {
+	width: 300px;
+	height: 200px;
+	margin-top: -30px;
+	color: white;
+}
+.catego {
+	background-color: #03ecf9;
+	height: 300px;
+	width: 193vh;
+	margin: 40px;
+	padding: 30px;
+	position: center;
+	right: 100px;
+	top: 50px;
+	display: inline-block;
+}
+.need {
+	text-align: center;
+}
+.barra {
+	width: 2000px;
+	border-radius: 12px;
+}
+.container1 {
+	border-radius: 5px;
+	text-align: center;
+	display: inherit;
+	justify-content: center;
+	width: 400px;
+	height: 520px;
+	background-color: white;
+}
+.imagen {
+	padding: 100px;
+}
+.imagen1 {
+	width: 200px;
+	height: 200px;
+	margin: 60px;
+	margin-left: 60px;
+}
+.imagen2 {
+	width: 200px;
+	height: 200px;
+	margin: 60px;
+	margin-left: 60px;
+}
+
+.container5 {
+	border-radius: 12px;
+	background-color: #03ecf9;
+	text-align: center;
+	display: inline-block;
+	justify-content: center;
+	margin-top: 50px;
+}
+
+.fondoInicio7 {
+	border-radius: 0, 5px;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	width: 350px;
+	height: 680px;
+	margin-top: 7%;
+}
+.divnav {
+	background-color: #03ecf9;
+}
+
+.textopant {
+	font-size: 23px;
+	margin-left: 650px;
+}
+
+.fondoInicio8 {
+	border-radius: 0, 5px;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	width: 350px;
+	height: 500px;
+	margin-top: 7%;
+}
+
+.openshop3 {
+	text-align: center;
+}
+.col {
+	background-color: white;
+}
+.card-img-top {
+	width: 300px;
+	height: 200px;
+}
+.card {
+	width: 300px;
+	background-color: transparent;
+	margin: 12px;
+	margin-left: 110px;
+	margin-top: 12px;
+}
+.card-title {
+	text-align: center;
+}
+
+.button1 {
+	background-color: white;
+	width: 130px;
+	height: 80px;
+	border-radius: 12px;
+	border-bottom-color: white;
+	border-color: #08c2cc;
+	border-width: 5px;
+	margin: 20px;
+}
+
+.establecimientoCard {
+	border: 1px solid;
+}
+.fondoInicio9 {
+	border-radius: 0, 5px;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	width: 90%;
+	height: 90%;
+	margin-top: 7%;
+}
+.card-img-top {
+	margin-top: 20px;
+	width: 100%;
+}
+.mb-4 {
+	background-color: #03ecf9;
+}
+.card {
+	background-color: white;
+	margin-left: 15%;
+	width: 80%;
+}
+.container2 {
+	margin-top: -150px;
+}
+
+.fondoblanco {
+	background-image: url("https://image.freepik.com/vector-gratis/patron-sobre-shopping_1061-495.jpg");
+}
+.stylecarsito {
+	width: 18rem;
+	margin: 0 auto;
+} */
